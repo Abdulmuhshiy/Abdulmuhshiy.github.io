@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portfolio | Abdul Muhshiy</title>
+  </head>
+  <body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Abdul Muhshiy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/profil.png" alt="abdulmuhshiy" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Abdul Muhshiy</h1>
+      <p class="lead">Junior Designer | Frontand Developer</p>
+    </section>
+    <!-- akhir jumbotron -->
+    <!-- about -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>
+              "Hai, perkenalkan nama saya Abdul Muhshiy Aljamili, atau biasa dipanggil Muhsyie. Saya merupakan seorang pelajar yang memiliki ketertarikan di dunia Web Development. Saat ini saya sedang aktif belajar di beberapa channel yang
+              saya lihat di youtube, salah satunya adalah channel Programming Unpas. Selain itu saya juga mengikuti beberapa kursus frontand development.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+              Channel Programing Unpas merupakan channel yang membahas tentang pemograman dari frontand, backand dan pembahasan menarik lainnya yang berhubungan dengan pemograman. Channel ini sudah online semenjak tahun 2015, dengan tujuan
+              sebagai media pembelajaran. Dan ini sangat membatu saya dalam belajar frontand developmet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about -->
+    <!-- projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/3ULL PRO.png" class="card-img-top" alt="3ULL PRO" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/PELICAN.png" class="card-img-top" alt="PELICAN" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/PLATINUM CARD.png" class="card-img-top" alt="PLATINUM CARD" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/SELF E'STEM.png" class="card-img-top" alt="SELF E'STEM" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/SUNRISE.png" class="card-img-top" alt="SUNRISE" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/WINGMEN.png" class="card-img-top" alt="WINGMEN" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir projects -->
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir contact -->
+    <!-- footer -->
+    <footer class="bg-primary text-white text-center">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="" class="text-white fw-bold">Abdul Muhshiy</a></p>
+    </footer>
+    <!-- akhir footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

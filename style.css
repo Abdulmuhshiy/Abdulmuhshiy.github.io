@@ -1,0 +1,16 @@
+.jumbotron,
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding: 4rem 1rem;
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+}
